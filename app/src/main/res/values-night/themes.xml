@@ -1,12 +1,25 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <style name="TripExpenses.Pink">
-        <item name="colorPrimary">@color/tech_pink_500</item>
+    <style name="Base.TripExpenses" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#45bb3b</item>
         <item name="colorOnPrimary">@color/tech_matte_black</item>
         <item name="colorPrimaryVariant">@color/tech_blue_800</item>
         <item name="colorSecondary">@color/tech_yellow_500</item>
-        <item name="colorSecondaryVariant">@color/tech_pink_600</item>
+        <item name="colorSecondaryVariant">#2A7024</item>
         <item name="colorSecondaryContainer">@color/tech_prussian_blue_dark</item>
         <item name="colorOnSurface">@color/white</item>
-        <item name="colorSurface">@color/black</item>
+        <item name="colorPrimarySurface">#2A7024</item>
+    </style>
+    <style name="TripExpenses.Orange" parent="@style/Base.TripExpenses">
+        <style name="DarkTheme" parent="@style/Base.TripExpenses">
+            <item name="colorPrimary">@color/black</item>
+            <item name="colorOnPrimary">@color/tech_matte_black</item>
+            <item name="colorPrimaryVariant">@color/tech_blue_800</item>
+            <item name="colorSecondary">@color/tech_yellow_500</item>
+            <item name="colorSecondaryVariant">@color/white</item>
+            <item name="colorSecondaryContainer">@color/white</item>
+            <item name="colorOnSurface">@color/white</item>
+            <item name="colorPrimarySurface">@color/white</item>
+
+        </style>
     </style>
 </resources>

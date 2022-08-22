@@ -1,13 +1,43 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
-    <style name="Base.TripExpenses" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Base.TripExpenses" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#45bb3b</item>
+        <item name="colorOnPrimary">@color/tech_matte_black</item>
+        <item name="colorPrimaryVariant">@color/tech_blue_800</item>
+        <item name="colorSecondary">@color/tech_yellow_500</item>
+        <item name="colorSecondaryVariant">#296C23</item>
+        <item name="colorSecondaryContainer">@color/tech_prussian_blue_dark</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="colorPrimarySurface">#296C23</item>
+
+        <!--Material type attributes-->
+        <item name="textAppearanceHeadline1">@style/TextAppearance.TripExpenses.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.TripExpenses.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.TripExpenses.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.TripExpenses.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.TripExpenses.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.TripExpenses.Headline6</item>
+        <item name="textAppearanceHeadlineSmall">@style/TextAppearance.TripExpenses.HeadlineSmall</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.TripExpenses.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.TripExpenses.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.TripExpenses.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.TripExpenses.Body2</item>
+        <item name="textAppearanceButton">@style/TextAppearance.TripExpenses.Button</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.TripExpenses.Caption</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.TripExpenses.Overline</item>
+
+
         <!--Material shape attributes-->
         <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.TripExpenses.SmallComponent
         </item>
         <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.TripExpenses.MediumComponent
         </item>
-        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.TripExpenses.LargeComponent
-        </item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.TripExpenses.LargeComponent</item>
+
+
+    </style>
+
+    <style name="TripExpenses.Orange" parent="@style/Base.TripExpenses">
 
         <!--Material type attributes-->
         <item name="textAppearanceHeadline1">@style/TextAppearance.TripExpenses.Headline1</item>
@@ -29,30 +59,4 @@
         <item name="colorPrimary">@color/tech_deep_orange</item>
         <item name="colorOnPrimary">@color/tech_matte_black</item>
     </style>
-
-    <style name="TripExpenses" parent="@style/Base.TripExpenses" />
-
-    <style name="TripExpenses.Pink">
-        <item name="colorPrimary">@color/tech_pink_500</item>
-        <item name="colorOnPrimary">@color/tech_matte_black</item>
-        <item name="colorPrimaryVariant">@color/tech_blue_800</item>
-        <item name="colorSecondary">@color/tech_yellow_500</item>
-        <item name="colorSecondaryVariant">@color/tech_pink_600</item>
-        <item name="colorSecondaryContainer">@color/tech_prussian_blue_dark</item>
-        <item name="colorOnSurface">@color/white</item>
-        <item name="colorSurface">@color/tech_pink_500</item>
-    </style>
-
-    <style name="TripExpenses.Orange">
-        <item name="colorPrimary">@color/tech_pink_500</item>
-        <item name="colorOnPrimary">@color/tech_matte_black</item>
-        <item name="colorPrimaryVariant">@color/tech_blue_800</item>
-        <item name="colorSecondary">@color/tech_yellow_500</item>
-        <item name="colorSecondaryVariant">@color/tech_pink_600</item>
-        <item name="colorSecondaryContainer">@color/tech_prussian_blue_dark</item>
-        <item name="colorOnSurface">@color/white</item>
-        <item name="colorPrimarySurface">@color/tech_deep_orange</item>
-    </style>
-
-
 </resources>
